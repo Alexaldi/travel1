@@ -101,11 +101,18 @@ h2{
 }
 
 /* armada */
- .splide__slide img {
+.splide__slide img {
       width: 100%; /* Sesuaikan dengan lebar slide */
       height: auto;
       margin-right: 10px; /* Tambahkan margin antara gambar */
-    }
+  }
+
+.image-armada {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  object-fit: contain;
+}
 
 /* rute */
 #rute{
